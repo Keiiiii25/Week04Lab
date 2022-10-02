@@ -12,14 +12,21 @@
         <title>View Note</title>
     </head>
     <body>
-        <h1>Simple Note Keeper</h1>
-        <h2>View Note</h2>
-        
-        <p><b>Title: </b>This is the title</p>
-        
-        <p><b>Contents:</b><br>
-        <a>Contents go here</a></p>
-        
-        <a href="Note">Edit</a>
+        <header>
+            <h1>Simple Note Keeper</h1>
+        </header>
+        <main>
+            <h2>View Note</h2>
+
+            <p><b>Title: </b>${note.title}</p>
+
+            <p>
+                <b>Contents:</b>
+                <br>
+                ${note.contents}
+            </p>
+
+            <a href="note?edit">Edit</a>
+        </main>
     </body>
 </html>

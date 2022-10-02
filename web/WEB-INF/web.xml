@@ -4,17 +4,9 @@
         <servlet-name>NoteServlet</servlet-name>
         <servlet-class>servlets.NoteServlet</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>Note</servlet-name>
-        <servlet-class>models.Note</servlet-class>
-    </servlet>
     <servlet-mapping>
         <servlet-name>NoteServlet</servlet-name>
         <url-pattern>/note</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Note</servlet-name>
-        <url-pattern>/Note</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
